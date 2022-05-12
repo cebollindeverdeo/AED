@@ -1,4 +1,3 @@
-#include <iostream>
 #include <cassert>
 #include <string.h>
 using namespace std::literals;
@@ -62,17 +61,17 @@ int main() {
     assert('d'%'b');
    
     //Prueba de tipo UNSIGNED
-    assert(2==1+1);
-    assert(3==1+2);
-    assert(10==23-13);
-    assert(6==2*3);
-    assert(20==100/5);
-    assert(7!=9);
-    assert(10%2==0);
-    assert(34<77);
-    assert(2>=1);
-    assert(10<=11);
-    assert(30>5);
+    assert(2u==1u+1u);
+    assert(3u==1u+2u);
+    assert(10u==23u-13u);
+    assert(6u==2u*3u);
+    assert(20u==100u/5u);
+    assert(7u!=9u);
+    assert(10u%2==0u);
+    assert(34u<77u);
+    assert(2u>=1u);
+    assert(10u<=11u);
+    assert(30u>5u);
     
    /* Crédito Extra
    ¿Son esos realmente todos los tipos que vimos en clase?
